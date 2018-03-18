@@ -18,3 +18,5 @@ Ex:
       {id:2,text:"Super Gloss K1",dophu:14,pack:{p1:5, p2:1}, type:"lit",cost:{p1:1600,p2:330}, image:"assets/image/Super Gloss K1.png"}]
       
       id, tên, độ phủ, các loại gói, loại lit, kg, giá từng gói, link ảnh
+
+Code build cho web ở trong www/index.html
