@@ -1,0 +1,74 @@
+page-output-page {
+  ion-title .toolbar-title{
+    text-align: center;
+  }
+
+  ion-content{
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding: 20% !important;
+
+  }
+  .scroll-content {
+    //overflow-y: hidden !important;
+  }
+  .shadow-div {
+    width:100%;;
+    background-color: rgba(158, 158, 158, 0.7) !important;
+    height: auto;
+    min-width:100%;
+    color: #343494;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0% 5% 5% 5%;
+  }
+  ion-title .toolbar-title{
+    color:  white;
+
+    font-weight: bold;
+  }
+  ion-card{
+    border-radius: .2em !important;
+    box-shadow: 0 2.5em .9em -2em #555 !important;
+  }
+  ion-card-title{
+    background-color: cornflowerblue !important;
+    color: black !important;
+    margin: 0 0 !important;
+  }
+  img {
+    border: 1px solid #ddd;
+
+    padding: 5px;
+
+
+  }
+  ion-card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 8px;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .totalMoney{
+    margin: 0 auto;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px dashed #ccc; }
+
+
+}

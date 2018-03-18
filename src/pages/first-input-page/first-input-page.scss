@@ -1,0 +1,64 @@
+page-first-input-page {
+  ion-title .toolbar-title{
+    text-align: center;
+  }
+
+  ion-content{
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding: 20% !important;
+
+  }
+  .scroll-content {
+    overflow-y: hidden !important;
+  }
+
+  div input {
+    width: 86%;
+    height: 2.5em;
+    margin: .75em;
+    border-radius: 1.2em;
+    border: none;
+    /* Change the alpha value on the background to get more or less transparency*/
+    background: rgba(255, 255, 255, 0.9);
+    /* Like a lot or shadow? Add it! */
+    box-shadow: inset 0 0.1em 0.1em rgba(0, 0, 0, 0.8);
+    padding-left: 1em;
+    color: rgba(0, 0, 0, 0.65);
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 100%;
+  }
+  .shadow-div {
+    width:100%;;
+    background-color: rgba(158, 158, 158, 0.7) !important;
+    height: auto;
+    min-height: 100%;
+    color: #343494;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10% 10% 10% 10%;
+  }
+  ion-title .toolbar-title{
+    color:  white;
+
+    font-weight: bold;
+  }
+
+
+.info-div{
+  color: white;
+  font-weight: bold;
+}
+
+  input:focus{
+    text-indent: 12px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(120,53,229,0.2);
+  }
+
+  textarea { text-align: center; }
+  input { text-align: center; }
+}

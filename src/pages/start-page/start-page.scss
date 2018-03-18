@@ -1,0 +1,13 @@
+page-start-page {
+  ion-content {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .scroll-content {
+    opacity: 0.8;
+    overflow: hidden;
+    min-height: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
