@@ -1,15 +1,16 @@
-imagelink = src/assets/image
-4 pages:
-  - start_page
-  - first_input_page 
-  - seconde_input_page
-  - output_page
-CODE HTML,SCSS (CSS) ,TypeSCRIPT (Java Script) in src/pages/name_page
-File HTML: giao diện <ion-content> = <body>
-File SCSS: Cải tiến của css
-File typeScript: Giống JS, sử dụng dữ liệu tĩnh ở src/provider/data-service
++ imagelink = src/assets/image
 
-Dữ liệu json ở src/provider/data-service
++ 4 pages:
+    - start_page
+    - first_input_page 
+    - seconde_input_page
+    - output_page
++ CODE HTML,SCSS (CSS) ,TypeSCRIPT (Java Script) in src/pages/name_page
+  - File HTML: giao diện <ion-content> = <body>
+  - File SCSS: Cải tiến của css
+  - File typeScript: Giống JS, sử dụng dữ liệu tĩnh ở src/provider/data-service
+
++ Dữ liệu json ở src/provider/data-service
 Ex: 
 
  this.list_spnt2 = [
